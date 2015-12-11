@@ -11,26 +11,17 @@ public class DiagonalDifference {
 	public static void main(String[] args) {
 		try {
 			// take input
-			
 			int N = Integer.parseInt(br.readLine());
-			
 			int matrix[][] = takeInput(N);
-			
 			int primaryDiagonalSum = 0, secondaryDiagonalSum = 0; 
-			
 			for(int i = 0; i < N; i++){
 				primaryDiagonalSum += matrix[i][i];
 			}
-			
 			int j = N-1;
-			
 			for(int i= 0 ; i < N; i++){
-				
 				secondaryDiagonalSum += matrix[i][j];
 				j--;
-				
 			}
-			
 			System.out.println(Math.abs(primaryDiagonalSum-secondaryDiagonalSum) );
 			
 			br.close();
