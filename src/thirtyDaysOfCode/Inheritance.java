@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Inheritance {
 	public static void main(String[] args) {
-		System.out.println("h");
+		
 		Scanner sc = new Scanner(System.in);
 		String firstName = sc.nextLine();
 		String lastName = sc.nextLine();
@@ -15,6 +15,7 @@ public class Inheritance {
 		stu.display();
 		Grade g = (Grade) stu;
 		System.out.println("Grade: " + g.calculate());
+		
 		sc.close();
 	}
 }
