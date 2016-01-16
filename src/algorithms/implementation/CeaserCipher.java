@@ -13,7 +13,7 @@ public class CeaserCipher {
 			int stringLength = Integer.parseInt(scan.readLine());
 
 			String text = scan.readLine();
-			int k = Integer.parseInt(scan.readLine());
+			int k = Integer.parseInt(scan.readLine()) % 26;
 
 			// ASCII values
 			// 65 to 90 - Capital english letters
@@ -26,7 +26,7 @@ public class CeaserCipher {
 				if (c >= 'A' && c <= 'Z') {
 					
 					int ck = c + k;
-					while (ck > 'Z')
+					if (ck > 'Z')
 						ck = ('A') + ( ( (ck) % 'Z' ) -1 );
 					
 					System.out.print((char)ck);
@@ -35,7 +35,7 @@ public class CeaserCipher {
 				else if (c >= 'a' && c <= 'z') {
 
 					int ck = c + k;
-					while (ck > 'z')
+					if (ck > 'z')
 						ck = ('a') + ( ( (ck) % 'z' ) -1 );
 					
 					System.out.print((char)ck);
