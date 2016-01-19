@@ -24,11 +24,21 @@ public class SherlockAndSquares {
 			int n = Integer.parseInt(br.readLine());
 
 			while (n > 0) {
+				
+				int k = 0;
 				String s[] = br.readLine().split(" ");
 				int start = Integer.parseInt(s[0]);
 				int end = Integer.parseInt(s[1]);
 
+				//Best solution
 				System.out.println( (int)( Math.floor(Math.sqrt(end)) - Math.ceil(Math.sqrt(start)) + 1) );
+				
+				// Other solution
+				for(int i = 1; ; i++){
+					if(i*i > end) break;
+					if( i*i <= end || i*i >= start) k++;
+				}
+				System.out.println(k);
 				n--;
 			}
 			br.close();
