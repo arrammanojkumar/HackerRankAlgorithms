@@ -40,6 +40,7 @@ public class SherlockAndSquares {
 					if( i*i <= end || i*i >= start) k++;
 				}
 				System.out.println(k);
+				
 				n--;
 			}
 			br.close();
