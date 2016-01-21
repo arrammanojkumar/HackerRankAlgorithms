@@ -1,4 +1,4 @@
-package algorithms.implementation.easy;
+package algorithms.implementation.medium;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
