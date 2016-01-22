@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class Linkedlists {
 	
-	public static  Node insert(Node head,int data)
+	public static  LinkedListNode insert(LinkedListNode head,int data)
 	{
-		if(head == null) return new Node(data);
+		if(head == null) return new LinkedListNode(data);
 		
-		Node traverse = head;
+		LinkedListNode traverse = head;
 		while(traverse.next != null){
 			traverse = traverse.next;
 		}
-		traverse.next = new Node(data);
+		traverse.next = new LinkedListNode(data);
 		
 		return head;
 	}
 	
-	public static void display(Node head)
+	public static void display(LinkedListNode head)
     {
-          Node start=head;
+          LinkedListNode start=head;
           while(start!=null)
           {
               System.out.print(start.data+" ");
@@ -29,7 +29,7 @@ public class Linkedlists {
     public static void main(String args[])
     {
           Scanner sc=new Scanner(System.in);
-          Node head=null;
+          LinkedListNode head=null;
           int N=sc.nextInt();
           while(N-->0){
               int ele=sc.nextInt();
@@ -41,11 +41,11 @@ public class Linkedlists {
    
 }
 
-class Node{
+class LinkedListNode{
 	int data;
-	Node next;
+	LinkedListNode next;
 	
-	Node(int d){
+	LinkedListNode(int d){
         data=d;
         next=null;
     }
