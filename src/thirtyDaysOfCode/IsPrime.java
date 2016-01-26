@@ -27,7 +27,6 @@ public class IsPrime {
 				else
 					System.out.println("Not prime");
 			}
-
 			t--;
 		}
 		scan.close();
