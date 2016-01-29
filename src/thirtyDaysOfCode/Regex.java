@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 public class Regex {
 
 	public static void main(String[] args) {
-
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			int n = Integer.parseInt(br.readLine());
