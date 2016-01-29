@@ -8,8 +8,6 @@ public class Regex {
 
 	public static void main(String[] args) {
 
-		System.out.println("h");
-
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			int n = Integer.parseInt(br.readLine());
