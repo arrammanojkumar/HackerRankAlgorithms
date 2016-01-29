@@ -20,7 +20,7 @@ public class Regex {
 				String regex = br.readLine();
 
 				try {
-					Pattern pattern = Pattern.compile(regex);
+					Pattern.compile(regex);
 				} catch (Exception e) {
 					flag = false;
 				}
