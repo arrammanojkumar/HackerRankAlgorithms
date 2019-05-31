@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  *
  * https://www.hackerrank.com/challenges/repeated-string/problem
+ * @author  Manoj Kumar Arram
  *
  */
 public class RepeatedString {
