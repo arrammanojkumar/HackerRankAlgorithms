@@ -9,8 +9,6 @@ public class HourGlass {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-//        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
         int[][] arr = {
                 {1, 1, 1, 0, 0, 0},
                 {0, 1, 0, 0, 0, 0},
@@ -20,23 +18,17 @@ public class HourGlass {
                 {0, 0, 1, 2, 4, 0},
         };
 
-//        for (int i = 0; i < 6; i++) {
-//            String[] arrRowItems = scanner.nextLine().split(" ");
-//            scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-//
-//            for (int j = 0; j < 6; j++) {
-//                int arrItem = Integer.parseInt(arrRowItems[j]);
-//                arr[i][j] = arrItem;
-//            }
-//        }
+        for (int i = 0; i < 6; i++) {
+            String[] arrRowItems = scanner.nextLine().split(" ");
+
+            for (int j = 0; j < 6; j++) {
+                int arrItem = Integer.parseInt(arrRowItems[j]);
+                arr[i][j] = arrItem;
+            }
+        }
 
         int result = hourglassSum(arr);
         System.out.println(result);
-
-//        bufferedWriter.write(String.valueOf(result));
-//        bufferedWriter.newLine();
-//
-//        bufferedWriter.close();
 
         scanner.close();
     }
