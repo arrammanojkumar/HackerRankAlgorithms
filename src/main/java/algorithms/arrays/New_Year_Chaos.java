@@ -44,9 +44,17 @@ public class New_Year_Chaos {
                 System.out.println("Too chaotic");
                 return;
             }
+            /**
+             * Anyone who bribed q[i] cannot get to higher than
+             * one position in front if q[i]'s original position,
+             * so we need to look from one position in front
+             * of q[i]'s original position to one in front of q[i]'s
+             * current position, and see how many of those
+             * positions in q[j] contain a number large than q[i].
+             *
+             */
             for(int j = Math.max(0, q[i]-2); j < i; j++) if(q[j] > q[i] ) bribes++;
         }
         System.out.println(bribes);
     }
-
 }
