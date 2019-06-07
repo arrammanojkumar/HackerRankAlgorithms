@@ -5,6 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/minimum-swaps-2/problem
+ *
+ * @author  Manoj Kumar Arram
+ */
 public class MinimumSwaps2 {
 
     private static final Scanner scanner = new Scanner(System.in);
