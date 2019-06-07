@@ -3,6 +3,12 @@ package algorithms.arrays;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ *
+ * https://www.hackerrank.com/challenges/2d-array/problem
+ *
+ * @author  Manoj Kumar Arram
+ */
 public class LeftRotation {
     private static final Scanner scanner = new Scanner(System.in);
 

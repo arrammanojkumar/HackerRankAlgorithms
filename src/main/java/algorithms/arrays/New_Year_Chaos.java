@@ -2,6 +2,12 @@ package algorithms.arrays;
 
 import java.util.Scanner;
 
+/**
+ *
+ * https://www.hackerrank.com/challenges/new-year-chaos/problem
+ *
+ * @author Manoj Kumar Arram
+ */
 public class New_Year_Chaos {
 
     private static final Scanner scanner = new Scanner(System.in);

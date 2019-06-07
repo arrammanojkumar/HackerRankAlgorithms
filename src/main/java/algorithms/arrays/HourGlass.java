@@ -1,10 +1,15 @@
 package algorithms.arrays;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ *
+ * https://www.hackerrank.com/challenges/2d-array/problem
+ *
+ * @author  Manoj Kumar Arram
+ *
+ */
 public class HourGlass {
     private static final Scanner scanner = new Scanner(System.in);
 
