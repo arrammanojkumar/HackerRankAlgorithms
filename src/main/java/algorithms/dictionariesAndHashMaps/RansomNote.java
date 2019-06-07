@@ -3,6 +3,11 @@ package algorithms.dictionariesAndHashMaps;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+ *
+ * @author  Manoj Kumar Arram
+ */
 public class RansomNote {
     private static final Scanner scanner = new Scanner(System.in);
 
