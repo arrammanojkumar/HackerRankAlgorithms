@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 /**
+ *
+ * https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
+ * 
  * @author Manoj Kumar Arram
  */
 public class SherlockAndAnagrams {
