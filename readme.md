@@ -9,3 +9,4 @@ Interview Preparation Kit - Arrays | [Arrays: New Year Chaos](https://www.hacker
 Interview Preparation Kit - Arrays | [Arrays: Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | Medium | 40.0 | [Java](./src/main/java/algorithms/arrays/MinimumSwaps2.java)
 Interview Preparation Kit - Arrays | [Arrays: Array Manipulation](https://www.hackerrank.com/challenges/crush/problem) | Medium | 40.0 | [Java](./src/main/java/algorithms/arrays/ArrayManipulation.java)
 Interview Preparation Kit - Dictionaries and Hashmaps | [Hash Tables: Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem) | Easy | 25.0 | [Java](./src/main/java/algorithms/dictionariesAndHashMaps/RansomNote.java)
+Interview Preparation Kit - Dictionaries and Hashmaps | [Hash Tables: Two Strings](https://www.hackerrank.com/challenges/two-strings/problem) | Easy | 25.0 | [Java](./src/main/java/algorithms/dictionariesAndHashMaps/TwoStrings.java)
