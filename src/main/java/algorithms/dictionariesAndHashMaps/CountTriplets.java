@@ -4,7 +4,10 @@ import java.io.*;
 import java.util.*;
 
 /**
+ * https://www.hackerrank.com/challenges/count-triplets-1/problem
+ *
  * @author Manoj Kumar Arram
+ *
  */
 public class CountTriplets {
     public static void main(String[] args) throws IOException {
